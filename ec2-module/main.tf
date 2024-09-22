@@ -4,7 +4,7 @@ provider "aws" {
 
 module "ec2_instance" {
   source = "./module"
-  ami_value = ""
-  intance_type_value = ""
-  subnet_id_value = ""
+  ami_value = ""                     #put your values
+  instance_type_value = ""            #put your values
+  subnet_id_value = ""               #put your values
 }
